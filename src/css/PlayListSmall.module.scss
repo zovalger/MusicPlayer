@@ -1,0 +1,28 @@
+.container {
+	
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	
+	background-color: gray;
+	margin-right: 10px;
+	margin-bottom: 10px;
+
+	&:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+.album {
+	height: 3rem;
+	width: 3rem;
+	background-color: #aaa;
+}
+
+.title {
+	margin-left: 0.5rem;
+	flex-grow: 1;
+	font-size: 12px;
+	// font-weight: 600;
+	
+}

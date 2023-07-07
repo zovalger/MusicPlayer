@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	padding: 0 1rem;
+	overflow: hidden;
+	overflow-x: scroll;
+	// height: max-content;
+}
+
+.title {
+	padding: 1rem 1rem;
+	// margin-bottom: 1rem;
+
+	margin-right: auto;
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+}

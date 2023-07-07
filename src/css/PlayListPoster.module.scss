@@ -1,0 +1,25 @@
+.container {
+	margin-right: 10px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.poster {
+	background-color: gray;
+	width: 160px;
+	height: 160px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.title {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.subTitle {
+	margin: 1rem 0;
+}
